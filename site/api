@@ -1,0 +1,9 @@
+<?php
+
+$temperatura = $_GET['temperatura'];
+$fumaca = $_GET['fumaca'];
+$presenca = $_GET['presenca'];
+
+echo "Dados recebidos";
+
+?>

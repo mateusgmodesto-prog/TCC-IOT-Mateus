@@ -1,0 +1,9 @@
+CREATE DATABASE monitoramento;
+
+CREATE TABLE sensores (
+ id INT AUTO_INCREMENT PRIMARY KEY,
+ temperatura VARCHAR(10),
+ fumaca VARCHAR(10),
+ presenca VARCHAR(10),
+ data_hora TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
